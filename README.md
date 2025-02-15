@@ -35,7 +35,6 @@ The parts are listed in the recommended order of soldering.
 | U2        | TTP223                  | Touch capacitive IC, SOT23-6 package  |
 | D1        | RGB Led                 | Led with common VCC, 3528 sized       |
 | C1        | 0603-0-50pF             | Capacitor, 0603 sized, 0 to 50 pico Farads (adjust for touch sensibility) |
-
 | R2        | 0603-5.1k               | Resistor, 0603 sized, 5.1 kilo Ohm    |
 | C1        | 0603-100nF              | Capacitor, 0603 sized, 100 nano Farad |
 | C2        | 0603-4.7uF              | Capacitor, 0603 sized, 4.7 micro Farad |
@@ -43,6 +42,5 @@ The parts are listed in the recommended order of soldering.
 | U4        | AO3400                  | N-Channel Mosfet, SOT-23 package      |
 | U3        | AO3400                  | N-Channel Mosfet, SOT-23 package      |
 | U1        | AMS1117 3.3V            | 5V to 3.3V Voltage regulator, SOT-223 package |
-
 
 ## Key Takeaways
