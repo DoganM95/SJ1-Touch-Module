@@ -44,3 +44,7 @@ The parts are listed in the recommended order of soldering.
 | U1        | AMS1117 3.3V            | 5V to 3.3V Voltage regulator, SOT-223 package |
 
 ## Key Takeaways
+
+- Tip controlling mosfet (now called pmos) gate is pulled up to PD VCC (e.g. 12V or 20V) with a 472 labelled smd resistor
+- The gate of the pmos should never be left floating, else the tip will heat into oblivion
+- The gate of pmos is grounded to control the power flowing to the tip from source to drain, with a 16 kHz pwm signal, where its duty cycle controls the temperature
