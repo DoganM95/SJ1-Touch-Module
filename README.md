@@ -13,10 +13,10 @@ This module adds touch based solder functionality to the awgem sj1 soldering iro
       <img src="https://github.com/user-attachments/assets/fe99fc65-409d-49a7-9eb0-98ec5676bbdd" alt="PCB Bottom View"/>
     </td>
     <td>
-      <img src="" alt="Physical top"/>
+      <img src="https://github.com/user-attachments/assets/62e08359-938f-40d9-85d9-e77fa0acb89b" alt="Physical top"/>
     </td>
     <td>
-      <img src="" alt="Physical assembled top"/>
+      <img src="https://github.com/user-attachments/assets/62e08359-938f-40d9-85d9-e77fa0acb89b" alt="Physical assembled top"/>
     </td>
   </tr>
 </table>
