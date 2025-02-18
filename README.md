@@ -26,6 +26,23 @@ This module adds touch based solder functionality to the awgem sj1 soldering iro
 - **Add-on**: The PCB is made to overlay on the original one and mounted by solder spots, together with their connections.
 - **Direct connections**: The pins on the pcb directly connect to the function points that it needs to function properly.
 
+## Preparation
+
+### On SJ1 mainboard
+
+- Cover the display with e.g. capton tape to prevent scratches during installation
+- Remove the power mosfet (Q1) from the SJ1 pcb
+- Remove solder until the tip-holding pads are flat on the side, where the mosfet is
+- Cover the mosfet pads with captop tape, so it does not touch the gate pin of the touch module that will sit on it
+-  Pre-tin the 2 nearest round pads to the power mosfet with a blow of solder
+
+### On touch mod pcb
+
+- Clean up the via's by filing the trace/pad excess away
+- Solder on the components listed in the BOM
+- Solder a nickel stripe on the big pad, creading a surface to touch the metal cap
+- Place the touch module on the 
+
 ## BOM
 
 The parts are listed in the recommended order of soldering.
