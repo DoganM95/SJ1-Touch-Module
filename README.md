@@ -34,14 +34,18 @@ This module adds touch based solder functionality to the awgem sj1 soldering iro
 - Remove the power mosfet (Q1) from the SJ1 pcb
 - Remove solder until the tip-holding pads are flat on the side, where the mosfet is
 - Cover the mosfet pads with captop tape, so it does not touch the gate pin of the touch module that will sit on it
--  Pre-tin the 2 nearest round pads to the power mosfet with a blow of solder
+- Pre-tin the 2 nearest round pads to the power mosfet with a blow of solder
 
 ### On touch mod pcb
 
 - Clean up the via's by filing the trace/pad excess away
 - Solder on the components listed in the BOM
 - Solder a nickel stripe on the big pad, creading a surface to touch the metal cap
-- Place the touch module on the 
+- Place the touch module on the SJ1 pcb, positioning it correctly with pads matching the holes
+- While squeezing the pcb's together, solder the pads on, one after another, reducing any gap between the pcb's
+- Solder the 472 smd resistor's top to the touch module's aligned pad
+- Below JMP1, solder the round pad (=3V3 input) to the SJ1's VDD with a wire
+- Left to the bottomHole, solder the round pad (= GND) to the SJ1's GND with a wire
 
 ## BOM
 
