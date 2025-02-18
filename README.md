@@ -39,13 +39,14 @@ This module adds touch based solder functionality to the awgem sj1 soldering iro
 ### On touch mod pcb
 
 - Clean up the via's by filing the trace/pad excess away
-- Solder on the components listed in the BOM
+- Solder on the components listed in the BOM, except for the SOP8 mosfet (AO4413)
 - Solder a nickel stripe on the big pad, creading a surface to touch the metal cap
 - Place the touch module on the SJ1 pcb, positioning it correctly with pads matching the holes
 - While squeezing the pcb's together, solder the pads on, one after another, reducing any gap between the pcb's
 - Solder the 472 smd resistor's top to the touch module's aligned pad
 - Below JMP1, solder the round pad (=3V3 input) to the SJ1's VDD with a wire
 - Left to the bottomHole, solder the round pad (= GND) to the SJ1's GND with a wire
+- Solder on the SOP8 Mosfet (AO4413)
 
 ## BOM
 
@@ -54,19 +55,19 @@ The parts are listed in the recommended order of soldering.
 | Reference | Part Name               | Description                           |
 |-----------|-------------------------|---------------------------------------|
 | U2        | TTP223                  | Touch capacitive IC, SOT23-6 package  |
-| D1        | RGB Led                 | Led with common VCC, 3528 sized       |
 | JP2       | Jumper pad              | Short to enable led                   |
-| R1        | 0603-1k                 | Resistor, 0603 sized, 1 kilo Ohm                  |
 | C1        | 0603-0-50pF             | Capacitor, 0603 sized, 0 to 50 pico Farads (adjust for touch sensibility) |
+| D1        | RGB Led                 | Led with common VCC, 3528 sized       |
+| R1        | 0603-1k                 | Resistor, 0603 sized, 1 kilo Ohm                  |
 | R2        | 0603-1k                 | Resistor, 0603 sized, 1 kilo Ohm      |
-| U1        | AO4413                  | P-ch Mosfet, SOP8 package             |
-| R4        | 0603-10k                | Resistor, 0603 sized, 10 kilo Ohm
-| JP1       | Jumper pad              | Short to enable touch controlled mosfet gate |
-| R5        | 0603-10k                | Reisitor, 0603 sized, 10 kilo Ohm     |
-| R3        | 0603-10k                | Reisitor, 0603 sized, 10 kilo Ohm     |
 | U4        | AO3400                  | N-ch Mosfet, SOT23-3 package          |
+| R5        | 0603-10k                | Reisitor, 0603 sized, 10 kilo Ohm     |
+| JP1       | Jumper pad              | Short to enable touch controlled mosfet gate |
+| R3        | 0603-10k                | Reisitor, 0603 sized, 10 kilo Ohm     |
+| R4        | 0603-10k                | Resistor, 0603 sized, 10 kilo Ohm
 | T1        | S8550                   | PNP Transistor, SOT23-3 package       |
 | BIG_PAD   | -                       | Touch interface, solder nickel strip on this |
+| U1        | AO4413                  | P-ch Mosfet, SOP8 package             |
 
 ## Key Takeaways
 
