@@ -55,14 +55,18 @@ The parts are listed in the recommended order of soldering.
 |-----------|-------------------------|---------------------------------------|
 | U2        | TTP223                  | Touch capacitive IC, SOT23-6 package  |
 | D1        | RGB Led                 | Led with common VCC, 3528 sized       |
+| JP2       | Jumper pad              | Short to enable led                   |
+| R1        | 0603-1k                 | Resistor, 0603 sized, 1 kilo Ohm                  |
 | C1        | 0603-0-50pF             | Capacitor, 0603 sized, 0 to 50 pico Farads (adjust for touch sensibility) |
-| R2        | 0603-5.1k               | Resistor, 0603 sized, 5.1 kilo Ohm    |
-| C1        | 0603-100nF              | Capacitor, 0603 sized, 100 nano Farad |
-| C2        | 0603-4.7uF              | Capacitor, 0603 sized, 4.7 micro Farad |
-| JP1       | Jumper                  | short: mid (VCC) with left/inner (3V3) or right/outer (5V)|
-| U4        | AO3400                  | N-Channel Mosfet, SOT-23 package      |
-| U3        | AO3400                  | N-Channel Mosfet, SOT-23 package      |
-| U1        | AMS1117 3.3V            | 5V to 3.3V Voltage regulator, SOT-223 package |
+| R2        | 0603-1k                 | Resistor, 0603 sized, 1 kilo Ohm      |
+| U1        | AO4413                  | P-ch Mosfet, SOP8 package             |
+| R4        | 0603-10k                | Resistor, 0603 sized, 10 kilo Ohm
+| JP1       | Jumper pad              | Short to enable touch controlled mosfet gate |
+| R5        | 0603-10k                | Reisitor, 0603 sized, 10 kilo Ohm     |
+| R3        | 0603-10k                | Reisitor, 0603 sized, 10 kilo Ohm     |
+| U4        | AO3400                  | N-ch Mosfet, SOT23-3 package          |
+| T1        | S8550                   | PNP Transistor, SOT23-3 package       |
+| BIG_PAD   | -                       | Touch interface, solder nickel strip on this |
 
 ## Key Takeaways
 
