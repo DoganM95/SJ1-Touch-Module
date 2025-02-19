@@ -27,7 +27,7 @@ This module adds touch based solder functionality to the awgem sj1 soldering iro
 - **Direct connections**: The pins on the pcb directly connect to the function points that it needs to function properly.
 - **Minimal modification**: The iron's pcb needs minimal modification, like removal of a mosfet
 
-## Preparation
+## Installation
 
 ### On SJ1 mainboard
 
