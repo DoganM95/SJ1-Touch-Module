@@ -51,6 +51,12 @@ This module adds touch based solder functionality to the awgem sj1 soldering iro
 - Remove tape from display
 - Reassemble the soldering iron
 
+### Settings
+
+On the iron's menu, the following settings combine to an optimal workflow, with the convenience of minimum button/plug interaction combined with minimized risk of burning down your home due to the unattended iron staying on:
+
+- 
+
 ## BOM
 
 The parts are listed in the recommended order of soldering.
