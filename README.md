@@ -51,11 +51,14 @@ This module adds touch based solder functionality to the awgem sj1 soldering iro
 - Remove tape from display
 - Reassemble the soldering iron
 
-### Settings
+### Optimal Iron Settings
 
-On the iron's menu, the following settings combine to an optimal workflow, with the convenience of minimum button/plug interaction combined with minimized risk of burning down your home due to the unattended iron staying on:
+For a safe and convenient workflow with minimal interaction:  
 
-- 
+- **Auto Sleep: On (e.g., 600s)**  
+  - Turns the tip off after 10 minutes of inactivity.  
+  - Reheats when motion is detected (e.g., picking up the iron).  
+  - Only heats while being touched, reducing fire risk.
 
 ## BOM
 
