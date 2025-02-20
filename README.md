@@ -31,6 +31,7 @@ This module adds touch based solder functionality to the awgem sj1 soldering iro
 
 ### On SJ1 mainboard
 
+- Pull out the mainboard from its housing (buttons will fall off)
 - Cover the display with e.g. capton tape
 - Remove the power mosfet (Q1) from the SJ1 pcb
 - On the top side of the touch pcb, flatten the tip holding pads, by removing solder
@@ -49,7 +50,7 @@ This module adds touch based solder functionality to the awgem sj1 soldering iro
 - Left to the bottom Hole, solder the round pad (= GND) to the SJ1's GND with a wire
 - Solder on the SOP8 Mosfet (AO4413)
 - Remove tape from display
-- Reassemble the soldering iron
+- Reassemble the soldering iron & press the buttons back in
 
 ### Optimal Iron Settings
 
