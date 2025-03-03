@@ -2,6 +2,10 @@
 
 This module adds touch based control to the awgem sj1 soldering iron. The tip only heats to the farget temperature, while being held by hand, see demo below.
 
+## Shop
+
+The assembled pcb can be bought [here](https://www.etsy.com/de-en/listing/1868701344/touch-mod-for-sj1-soldering-iron?ref=listings_manager_grid)
+
 ## Visual Overview
 
 <table>
