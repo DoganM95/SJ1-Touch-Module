@@ -64,6 +64,9 @@ For a safe and convenient workflow with minimal interaction:
 ## BOM
 
 The parts are listed in the recommended order of soldering.
+Note on C1: 
+- Use 22pF, if only the silver part of the handle should react
+- Use 10pF, if the whole metal body should react
 
 | Reference | Part Name               | Description                           |
 |-----------|-------------------------|---------------------------------------|
