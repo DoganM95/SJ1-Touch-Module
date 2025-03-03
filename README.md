@@ -70,7 +70,7 @@ Note on C1:
 
 | Reference | Part Name               | Description                           |
 |-----------|-------------------------|---------------------------------------|
-| U2        | TTP223                  | Touch capacitive IC, SOT23-6 package  |
+| U2        | TTP223-BA6              | Touch capacitive IC, SOT23-6 package  |
 | JP2       | Jumper pad              | Short to enable led                   |
 | C1        | 0603-0-50pF             | Capacitor, 0603 sized, 0 to 50 pico Farads (adjust for touch sensibility) |
 | D1        | RGB Led                 | Led with common VCC, 3528 sized       |
@@ -90,3 +90,8 @@ Note on C1:
 - Tip controlling mosfet (now called pmos) gate is pulled up to PD VCC (e.g. 12V or 20V) with a 472 labelled smd resistor
 - The gate of the pmos should never be left floating, else the tip will heat into oblivion and the pmos will overheat and break
 - The gate of pmos is grounded by a transistor to control the power flowing to the tip from source to drain, with a 16 kHz pwm signal, where the transistors output duty cycle controls the temperature
+- The TTP223 IC MUST be BA6 variant, as that is the only one without a timeout. Other TTP223 IC's have a 10 second timout, so they output low after 10 seconds, even while being touched
+
+## Demo
+
+https://github.com/user-attachments/assets/4df80c9a-d933-4be5-8bb9-def0f2be151d
