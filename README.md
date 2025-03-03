@@ -70,7 +70,8 @@ For a safe and convenient workflow with minimal interaction:
 The parts are listed in the recommended order of soldering.
 Note on C1: 
 - Use 22pF, if only the silver part of the handle should react
-- Use 10pF, if the whole metal body should react
+- Leave unpopulated, if the whole metal body should react, which needs the shell opening to be sanded/filed a bit, [like this](https://github.com/user-attachments/assets/9d63be5c-c39d-4ca7-b4e1-895a8083a453
+)
 
 | Reference | Part Name               | Description                           |
 |-----------|-------------------------|---------------------------------------|
