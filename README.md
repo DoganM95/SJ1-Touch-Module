@@ -48,7 +48,8 @@ The assembled pcb can be bought [here](https://www.etsy.com/de-en/listing/186870
 - Solder on the components listed in the BOM below, except for the SOP8 mosfet (AO4413)
 - Solder a nickel strip on the big pad, creading a surface to touch the metal cap
 - Place the touch module on the SJ1 pcb
-- While squeezing the pcb's together, solder the pads on, reducing any gap between the pcb's
+- While squeezing the pcb's together, solder the pads on, reducing any gap between the pcb's, [using these points](https://github.com/user-attachments/assets/d40c4a87-00ec-4a92-90fc-fe6288169589)
+
 - Solder the SJ1'S 472 smd resistor's top to the touch module's aligned pad
 - Below JMP1, solder the round pad (=3V3 input) to the SJ1's VDD with a wire
 - Left to the bottom Hole, solder the round pad (= GND) to the SJ1's GND with a wire
